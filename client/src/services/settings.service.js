@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/product/';
+const API_URL = 'http://localhost:3000/api/category/';
 
-class ProductService {
+class CategoryService {
   findMany(params) {
     const payload = {
       method: 'get',
@@ -41,4 +41,4 @@ class ProductService {
   // }
 }
 
-export default new ProductService();
+export default new CategoryService();

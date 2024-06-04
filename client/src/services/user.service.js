@@ -5,7 +5,7 @@ const API_URL = 'http://localhost:3000/api/user/';
 class UserService {
   findMany(params) {
     return axios
-      .get(API_URL, {params})
+      .get(API_URL, {params}, {headers: {'token': localStorage.getItem('token')}})
       .then(response => {
         return response;
       });
@@ -16,7 +16,6 @@ class UserService {
     if (body.user_name) requestBody.user_name = body.user_name
     if (body.email) requestBody.email = body.email
     if (body.position) requestBody.position = body.position
-    if (body.tier_access) requestBody.tier_access = body.tier_access
 
     return axios.patch(
       `${API_URL}/${body.user_id}`, 

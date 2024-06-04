@@ -23,9 +23,6 @@
             <div class="input-container">
               <v-text-field v-model="SelectedUser.position" label="Position" :variant="variant" :readonly="readonly" :rules="[requiredRule]"/>
             </div>
-            <div class="input-container">
-              <v-text-field v-model="SelectedUser.tier_access" label="Tier Access" :variant="variant" :readonly="readonly" :rules="[requiredRule]"/>
-            </div>
             <div v-if="mode !== 'create'" class="input-container">
               <v-text-field v-model="SelectedUser.created_dt" label="Created At" :variant="filled" :readonly="true"/>
             </div>
@@ -70,7 +67,7 @@ export default {
     return {
       SelectedUser: { ...this.user },
       originalUser: { ...this.user }, // Store the original user data
-      requiredFields: ['user_name', 'password', 'position', 'email', 'tier_access']
+      requiredFields: ['user_name', 'password', 'position', 'email']
     };
   },
   methods: {
@@ -228,6 +225,24 @@ export default {
 
 .input-container input {
   flex: 1; /* Allow input to take up remaining space */
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+}
+
+.input-row .input-container {
+  flex: 1; /* Take up equal space */
+}
+
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 </style>
