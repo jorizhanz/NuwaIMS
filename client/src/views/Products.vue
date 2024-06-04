@@ -3,6 +3,7 @@
       <main class="products-page">
         <header class="header">
           <h1 class="header-title">Products</h1>
+          <p class="details"> Create, Update, Delete, Edit products on sale.</p>
             <div class="search-container">
                 <div class="column-select-container">
                     <select v-model="selectedColumn" class="column-select">

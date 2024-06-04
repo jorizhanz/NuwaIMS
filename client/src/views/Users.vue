@@ -3,6 +3,7 @@
     <main class="users-page">
       <header class="header">
         <h1 class="header-title">Users</h1>
+        <p class="details">Manage people with access to the products and inventory.</p>
         <div class="search-container">
           <input
             type="text"
