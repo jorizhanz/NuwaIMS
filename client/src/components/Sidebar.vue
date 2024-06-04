@@ -23,9 +23,9 @@
                 <span class="material-icons-round">inventory</span>
                 <span class="text">Inventory</span>
             </router-link>
-            <router-link class="button" to="/settings">
+            <router-link class="button" to="/categories">
                 <span class="material-icons-round">settings</span>
-                <span class="text">Settings</span>
+                <span class="text">Categories</span>
             </router-link>
             <router-link class="button" to="/users">
                 <span class="material-icons-round">badge</span>
@@ -72,7 +72,7 @@ aside {
     flex-direction: column;
     width: 80px;
     min-height: 100vh;
-    overflow: hidden;
+    // overflow: hidden;
     padding: 1rem;
     background-color: #F8C963; /* Updated background color */
     color: var(--grey); /* Updated text color */
