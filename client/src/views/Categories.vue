@@ -488,7 +488,23 @@ export default {
     border-radius: 4px;
     background-color: #F8C963;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 6px #ffbf5e;
+    color: white;
+  }
+  
+  .create-button:hover {
+    box-shadow: 0 4px #fbae33;
+    top: 2px;
+  }
+
+  .create-button:active {
+    box-shadow: none;
+    top: 6px;
   }
   
   .create-category {
@@ -566,7 +582,8 @@ export default {
   }
   
   .icon-button:hover .material-icons {
-    color: #4CAF50;
+    color: #ee4747;
+    transform: scale(1.2);
   }
   
   .clickable-row {
@@ -596,6 +613,10 @@ export default {
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 10px;
+  }
+
+  .tab-button:hover {
+    font-weight: bold;
   }
 
   .tab-button.active {
