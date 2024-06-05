@@ -1,7 +1,7 @@
 <template>
     <div class="background">
       <div class="welcome-container">
-        <img src="../assets/nuwa-logo-full.png" alt="Logo" class="logo">
+        <img src="../assets/nuwa-white.png" alt="Logo" class="logo">
         <h1 class="welcome-message">Welcome to Nuwa's Inventory Management System!</h1>
       </div>
     </div>
@@ -22,7 +22,7 @@
   }
   
   .background {
-    background-image: url('../assets/home-bg.jpg');
+    background-image: url('../assets/unsplash.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
