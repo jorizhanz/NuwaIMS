@@ -3,6 +3,7 @@
     <main class="products-page">
       <header class="header">
         <h1 class="header-title">Inventory</h1>
+        <p class="details">Manage Status, Size, and Availability of each product.</p>
           <div class="search-container">
               <div class="column-select-container">
                   <select v-model="selectedCategory" class="column-select">
@@ -268,6 +269,16 @@ html, body {
 .header-title {
   margin: 0;
   vertical-align: middle;
+  font-size: 56px;
+  color: var(--brown);
+}
+
+.details{
+  margin: 0;
+  vertical-align: left;
+  font-size: 12px;
+  color: var(--brown);
+  position: relative;
 }
 
 .search-container {
@@ -334,7 +345,7 @@ th, td {
 }
 
 th {
-  background-color: #F8C963;
+  background-color: var(--teal);
   color: white;
 }
 
@@ -352,7 +363,7 @@ tr:nth-child(even) {
 
 th:hover {
   background-color: #f2f2f2;
-  color: #F8C963;
+  color: var(--teal);
 }
 
 
@@ -387,7 +398,7 @@ tr:hover {
 }
 
 .clickable-row:hover {
-  background-color: #FFE7AD;
+  background-color: #d5f5ed;
 }
 
 .row-actions {

@@ -269,6 +269,8 @@ export default {
   .header-title {
     margin: 0;
     vertical-align: middle;
+    font-size: 56px;
+    color: var(--brown);
   }
   
   .search-container {
@@ -289,12 +291,14 @@ export default {
 
   .column-select-container {
     margin-right: 10px;
+    
     }
 
   .column-select {
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
   }
   
   .create-button {
@@ -303,6 +307,7 @@ export default {
     border-radius: 4px;
     background-color: #F8C963;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
   
   .create-category {
@@ -335,7 +340,7 @@ export default {
   }
   
   th {
-    background-color: #F8C963;
+    background-color: var(--teal);
     color: white;
   }
   
@@ -353,7 +358,7 @@ export default {
   
   th:hover {
     background-color: #f2f2f2;
-    color: #F8C963;
+    color: var(--teal);
   }
   
   
@@ -388,7 +393,7 @@ export default {
   }
   
   .clickable-row:hover {
-    background-color: #FFE7AD;
+    background-color: #d5f5ed;
   }
   
   .row-actions {

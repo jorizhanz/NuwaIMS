@@ -3,6 +3,7 @@
       <main class="products-page">
         <header class="header">
           <h1 class="header-title">Products</h1>
+          <p class="details">Create, Update, Delete, Edit products on sale.</p>
             <div class="search-container">
                 <div class="column-select-container">
                     <select v-model="selectedColumn" class="column-select">
@@ -314,9 +315,19 @@
     margin-bottom: 10px;
   }
   
-  .header-title {
+    .header-title {
     margin: 0;
     vertical-align: middle;
+    font-size: 56px;
+    color: var(--brown);
+  }
+
+  .details{
+    margin: 0;
+    vertical-align: left;
+    font-size: 12px;
+    color: var(--brown);
+    position: relative;
   }
   
   .search-container {
@@ -383,7 +394,7 @@
   }
   
   th {
-    background-color: #F8C963;
+    background-color: var(--teal);
     color: white;
   }
   
@@ -401,7 +412,7 @@
   
   th:hover {
     background-color: #f2f2f2;
-    color: #F8C963;
+    color: var(--teal);
   }
   
   
@@ -436,7 +447,7 @@
   }
   
   .clickable-row:hover {
-    background-color: #FFE7AD;
+    background-color: #d5f5ed;
   }
   
   .row-actions {
