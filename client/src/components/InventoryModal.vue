@@ -359,7 +359,6 @@ export default {
     box-shadow: none;
     top: 6px;
   }
-  
 .modal-actions {
   display: flex;
   align-items: center;

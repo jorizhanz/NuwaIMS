@@ -254,6 +254,7 @@ export default {
     box-shadow: 0 2px #c53440;
     top: 1px;
   }
+
   .create-button:active {
     box-shadow: none;
     top: 6px;

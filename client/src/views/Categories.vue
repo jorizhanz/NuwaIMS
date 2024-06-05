@@ -581,7 +581,8 @@ export default {
   }
   
   .icon-button:hover .material-icons {
-    color: #4CAF50;
+    color: #ee4747;
+    transform: scale(1.2);
   }
   
   .clickable-row {

@@ -301,7 +301,7 @@ html, body {
 }
 
 .create-button {
-   padding: 8px 12px;
+    padding: 8px 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #F8C963;

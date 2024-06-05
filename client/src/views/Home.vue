@@ -6,13 +6,12 @@
       </div>
     </div>
   </template>
-
   <script>
   export default {
     name: 'Welcome',
   }
   </script>
-
+  
   <style scoped>
   html, body {
     margin: 0;
@@ -51,3 +50,4 @@
     color: white;
   }
   </style>
+  

@@ -1,7 +1,7 @@
 <template>
     <aside :class="`${is_expanded ? 'is-expanded' : ''}`">
         <div class="logo">
-            <img src="../assets/nuwa-s-logo.png" alt="Nuwa">
+            <img src="../assets/nuwa-w-logo.png" alt="Nuwa">
         </div>
 
         <div class="menu-toggle-wrap">
@@ -86,7 +86,7 @@ aside {
         margin-bottom: 1rem;
 
         img {
-            width: 2rem;
+            width: 3rem;
         }
     }
 
