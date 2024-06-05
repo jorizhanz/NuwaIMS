@@ -341,7 +341,6 @@ export default {
     box-shadow: 0 2px #c53440;
     top: 1px;
   }
-
   .create-button:active {
     box-shadow: none;
     top: 6px;
@@ -357,7 +356,7 @@ export default {
   margin-left: 10px;
   position: relative;
   transition: background-color 0.3s; /* Smooth transition */
-  box-shadow: 0 4px #1c8a4e;
+   box-shadow: 0 4px #1c8a4e;
 
   &:disabled {
     color: #eee;
@@ -371,7 +370,6 @@ export default {
     box-shadow: 0 2px #136b42;
     top: 1px;
   }
-
   .submit-button:active {
     box-shadow: none;
     top: 6px;
