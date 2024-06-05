@@ -285,7 +285,6 @@ html, body {
   font-size: 56px;
   color: var(--brown);
 }
-
 .details{
   margin: 0;
   vertical-align: left;
