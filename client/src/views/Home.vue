@@ -1,12 +1,11 @@
 <template>
-    <div class="background">
+   <div class="background">
       <div class="welcome-container">
         <img src="../assets/nuwa-white.png" alt="Logo" class="logo">
         <h1 class="welcome-message">Welcome to Nuwa's Inventory Management System!</h1>
       </div>
     </div>
   </template>
-  
   <script>
   export default {
     name: 'Welcome',

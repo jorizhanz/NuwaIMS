@@ -3,7 +3,7 @@
       <main class="products-page">
         <header class="header">
           <h1 class="header-title">Products</h1>
-          <p class="details">Create, Update, Delete, Edit products on sale.</p>
+          <p class="details"> Create, Update, Delete, Edit products on sale.</p>
             <div class="search-container">
                 <div class="column-select-container">
                     <select v-model="selectedColumn" class="column-select">
@@ -318,15 +318,6 @@
   .header-title {
     margin: 0;
     vertical-align: middle;
-    font-size: 56px;
-    color: var(--brown);
-  }
-  .details{
-    margin: 0;
-    vertical-align: left;
-    font-size: 12px;
-    color: var(--brown);
-    position: relative;
   }
   
   .search-container {
@@ -375,7 +366,6 @@
     box-shadow: 0 4px #fbae33;
     top: 2px;
   }
-
   .create-button:active {
     box-shadow: none;
     top: 6px;
@@ -411,7 +401,7 @@
   }
   
   th {
-    background-color: var(--teal);
+    background-color: #F8C963;
     color: white;
   }
   
@@ -429,7 +419,7 @@
   
   th:hover {
     background-color: #f2f2f2;
-    color: var(--teal);
+    color: #F8C963;
   }
   
   
@@ -456,7 +446,7 @@
   }
   
   .icon-button:hover .material-icons {
-  color: #4CAF50;
+    color: #4CAF50;
   transform: scale(1.2);
 }
   
@@ -465,7 +455,7 @@
   }
   
   .clickable-row:hover {
-    background-color: #d5f5ed;
+    background-color: #FFE7AD;
   }
   
   .row-actions {

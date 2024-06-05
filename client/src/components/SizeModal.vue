@@ -230,7 +230,7 @@ export default {
   border-radius: 10px; /* Rounded corners */
   padding: 5px 10px; /* Padding */
   cursor: pointer;
-  position: relative;
+    position: relative;
   transition: background-color 0.3s; /* Smooth transition */
   box-shadow: 0 4px #e9515e;
 }
@@ -239,8 +239,8 @@ export default {
     box-shadow: 0 2px #c53440;
     top: 1px;
   }
-
-  .create-button:active {
+  
+    .create-button:active {
     box-shadow: none;
     top: 6px;
   }
@@ -253,10 +253,9 @@ export default {
   padding: 5px 10px; /* Padding */
   cursor: pointer;
   margin-left: 10px;
-  position: relative;
+    position: relative;
   transition: background-color 0.3s; /* Smooth transition */
   box-shadow: 0 4px #1c8a4e;
-
   &:disabled {
     color: #eee;
     background: #aaa;
@@ -269,11 +268,12 @@ export default {
     box-shadow: 0 2px #136b42;
     top: 1px;
   }
-
+  
   .submit-button:active {
     box-shadow: none;
     top: 6px;
   }
+ 
 
 .modal-actions {
   display: flex;

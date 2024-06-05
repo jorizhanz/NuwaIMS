@@ -284,12 +284,11 @@ export default {
     box-shadow: 0 2px #136b42;
     top: 1px;
   }
-
   .submit-button:active {
     box-shadow: none;
     top: 6px;
   }
-
+  
 .modal-actions {
   display: flex;
   align-items: center;

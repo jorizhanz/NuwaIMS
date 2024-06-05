@@ -23,9 +23,9 @@
                 <span class="material-icons-round">inventory</span>
                 <span class="text">Inventory</span>
             </router-link>
-            <router-link class="button" to="/categories" exact-active-class="active">
+           <router-link class="button" to="/categories" exact-active-class="active">
                 <span class="material-icons-round">settings</span>
-                <span class="text">Categories</span>
+                <span class="text">Settings</span>
             </router-link>
             <router-link class="button" to="/users" exact-active-class="active">
                 <span class="material-icons-round">badge</span>

@@ -282,15 +282,6 @@ html, body {
 .header-title {
   margin: 0;
   vertical-align: middle;
-  font-size: 56px;
-  color: var(--brown);
-}
-.details{
-  margin: 0;
-  vertical-align: left;
-  font-size: 12px;
-  color: var(--brown);
-  position: relative;
 }
 
 .search-container {
@@ -329,11 +320,10 @@ html, body {
   top: 2px;
 }
 
-  .create-button:active {
+.create-button:active {
     box-shadow: none;
     top: 6px;
   }
-  
 
 .create-user {
   vertical-align: middle;
@@ -365,7 +355,7 @@ th, td {
 }
 
 th {
-  background-color: var(--teal);
+  background-color: #F8C963;
   color: white;
 }
 
@@ -383,7 +373,7 @@ tr:nth-child(even) {
 
 th:hover {
   background-color: #f2f2f2;
-  color: var(--teal);
+  color: #F8C963;
 }
 
 
@@ -419,7 +409,7 @@ tr:hover {
 }
 
 .clickable-row:hover {
-  background-color: #d5f5ed;
+  background-color: #FFE7AD;
 }
 
 .row-actions {
