@@ -315,13 +315,12 @@
     margin-bottom: 10px;
   }
   
-    .header-title {
+  .header-title {
     margin: 0;
     vertical-align: middle;
     font-size: 56px;
     color: var(--brown);
   }
-
   .details{
     margin: 0;
     vertical-align: left;
