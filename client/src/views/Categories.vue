@@ -63,7 +63,7 @@
                   {{ sortOrder === 'asc' ? 'arrow_drop_up' : 'arrow_drop_down' }}
                 </span>
               </th>
-              <th>Action</th>
+              <!-- <th>Action</th> -->
             </tr>
           </thead>
           <tbody>
@@ -72,13 +72,13 @@
               <td>{{ category.subcategory_label }}</td>
               <td>{{ category.created_dt }}</td>
               <td>{{ category.last_modified_dt }}</td>
-              <td>
+              <!-- <td>
                 <div class="row-actions">
                   <button @click="confirmDeleteCategory(category)" class="icon-button">
                     <span class="material-icons">delete</span>
                   </button>
                 </div>
-              </td>
+              </td> -->
             </tr>
           </tbody>
         </table>
@@ -135,7 +135,7 @@
                   {{ sortOrder === 'asc' ? 'arrow_drop_up' : 'arrow_drop_down' }}
                 </span>
               </th>
-              <th>Action</th>
+              <!-- <th>Action</th> -->
             </tr>
           </thead>
           <tbody>
@@ -144,13 +144,13 @@
               <td>{{ size.size_description }}</td>
               <td>{{ size.created_dt }}</td>
               <td>{{ size.last_modified_dt }}</td>
-              <td>
+              <!-- <td>
                 <div class="row-actions">
                   <button @click="confirmDeleteSize(size)" class="icon-button">
                     <span class="material-icons">delete</span>
                   </button>
                 </div>
-              </td>
+              </td> -->
             </tr>
           </tbody>
         </table>
@@ -488,7 +488,22 @@ export default {
     border-radius: 4px;
     background-color: #F8C963;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+     display: block;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 6px #ffbf5e;
+    color: white;
+  }
+  
+  .create-button:hover {
+    box-shadow: 0 4px #fbae33;
+    top: 2px;
+  }
+  .create-button:active {
+    box-shadow: none;
+    top: 6px;
   }
   
   .create-category {
@@ -596,6 +611,10 @@ export default {
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 10px;
+  }
+
+.tab-button:hover {
+    font-weight: bold;
   }
 
   .tab-button.active {

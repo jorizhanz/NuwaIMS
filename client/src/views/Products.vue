@@ -3,7 +3,7 @@
       <main class="products-page">
         <header class="header">
           <h1 class="header-title">Products</h1>
-          <p class="details">Create, Update, Delete, Edit products on sale.</p>
+          <p class="details"> Create, Update, Delete, Edit products on sale.</p>
             <div class="search-container">
                 <div class="column-select-container">
                     <select v-model="selectedColumn" class="column-select">
@@ -318,15 +318,6 @@
   .header-title {
     margin: 0;
     vertical-align: middle;
-    font-size: 56px;
-    color: var(--brown);
-  }
-  .details{
-    margin: 0;
-    vertical-align: left;
-    font-size: 12px;
-    color: var(--brown);
-    position: relative;
   }
   
   .search-container {
@@ -353,6 +344,7 @@
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
   }
   
   .create-button {
@@ -361,6 +353,22 @@
     border-radius: 4px;
     background-color: #F8C963;
     cursor: pointer;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 6px #ffbf5e;
+    color: white;
+  }
+  
+  .create-button:hover {
+    box-shadow: 0 4px #fbae33;
+    top: 2px;
+  }
+  .create-button:active {
+    box-shadow: none;
+    top: 6px;
   }
   
   .create-product {
@@ -393,7 +401,7 @@
   }
   
   th {
-    background-color: var(--teal);
+    background-color: #F8C963;
     color: white;
   }
   
@@ -411,7 +419,7 @@
   
   th:hover {
     background-color: #f2f2f2;
-    color: var(--teal);
+    color: #F8C963;
   }
   
   
@@ -439,14 +447,15 @@
   
   .icon-button:hover .material-icons {
     color: #4CAF50;
-  }
+  transform: scale(1.2);
+}
   
   .clickable-row {
     cursor: pointer;
   }
   
   .clickable-row:hover {
-    background-color: #d5f5ed;
+    background-color: #FFE7AD;
   }
   
   .row-actions {

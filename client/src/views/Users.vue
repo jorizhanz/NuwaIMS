@@ -282,15 +282,6 @@ html, body {
 .header-title {
   margin: 0;
   vertical-align: middle;
-  font-size: 56px;
-  color: var(--brown);
-}
-.details{
-  margin: 0;
-  vertical-align: left;
-  font-size: 12px;
-  color: var(--brown);
-  position: relative;
 }
 
 .search-container {
@@ -310,12 +301,29 @@ html, body {
 }
 
 .create-button {
-  padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #F8C963;
-  cursor: pointer;
+   padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #F8C963;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 6px #ffbf5e;
+    color: white;
+  }
+  
+  .create-button:hover {
+  box-shadow: 0 4px #fbae33;
+  top: 2px;
 }
+
+.create-button:active {
+    box-shadow: none;
+    top: 6px;
+  }
 
 .create-user {
   vertical-align: middle;
@@ -347,7 +355,7 @@ th, td {
 }
 
 th {
-  background-color: var(--teal);
+  background-color: #F8C963;
   color: white;
 }
 
@@ -365,7 +373,7 @@ tr:nth-child(even) {
 
 th:hover {
   background-color: #f2f2f2;
-  color: var(--teal);
+  color: #F8C963;
 }
 
 
@@ -393,6 +401,7 @@ tr:hover {
 
 .icon-button:hover .material-icons {
   color: #4CAF50;
+  transform: scale(1.2);
 }
 
 .clickable-row {
@@ -400,7 +409,7 @@ tr:hover {
 }
 
 .clickable-row:hover {
-  background-color: #d5f5ed;
+  background-color: #FFE7AD;
 }
 
 .row-actions {
