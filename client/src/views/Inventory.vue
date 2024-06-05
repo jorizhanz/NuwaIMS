@@ -454,6 +454,7 @@ tr:hover {
 
 .icon-button:hover .material-icons {
   color: #4CAF50;
+  transform: scale(1.2);
 }
 
 .clickable-row {
