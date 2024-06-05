@@ -11,23 +11,23 @@
         </div>
 
         <div class="menu">
-            <router-link class="button" to="/">
+            <router-link class="button" to="/" exact-active-class="active">
                 <span class="material-icons-round">grid_view</span>
-                <span class="text">Dashboard</span>
+                <span class="text">Home</span>
             </router-link>
             <router-link class="button" to="/products" exact-active-class="active">
                 <span class="material-icons-round">inventory_2</span>
                 <span class="text">Products</span>
             </router-link>
-            <router-link class="button" to="/inventory">
+            <router-link class="button" to="/inventory" exact-active-class="active">
                 <span class="material-icons-round">inventory</span>
                 <span class="text">Inventory</span>
             </router-link>
-            <router-link class="button" to="/categories">
+            <router-link class="button" to="/categories" exact-active-class="active">
                 <span class="material-icons-round">settings</span>
                 <span class="text">Categories</span>
             </router-link>
-            <router-link class="button" to="/users">
+            <router-link class="button" to="/users" exact-active-class="active">
                 <span class="material-icons-round">badge</span>
                 <span class="text">Users</span>
             </router-link>
