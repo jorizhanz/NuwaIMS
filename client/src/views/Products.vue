@@ -401,7 +401,7 @@
   }
   
   th {
-    background-color: #F8C963;
+    background-color: var(--teal);
     color: white;
   }
   
@@ -419,7 +419,7 @@
   
   th:hover {
     background-color: #f2f2f2;
-    color: #F8C963;
+    color: var(--teal);
   }
   
   
@@ -455,7 +455,7 @@
   }
   
   .clickable-row:hover {
-    background-color: #FFE7AD;
+    background-color: #d5f5ed;
   }
   
   .row-actions {

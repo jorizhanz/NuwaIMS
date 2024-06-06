@@ -12,7 +12,7 @@
 
         <div class="menu">
             <router-link class="button" to="/" exact-active-class="active">
-                <span class="material-icons-round">grid_view</span>
+                <span class="material-icons-round">home</span>
                 <span class="text">Home</span>
             </router-link>
             <router-link class="button" to="/products" exact-active-class="active">
